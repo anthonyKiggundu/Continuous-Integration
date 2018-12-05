@@ -1,2 +1,2 @@
 # Continuous-Integration
-Dumping some things that might be interesting here!
+Repository is mainly for some work in CI. 
