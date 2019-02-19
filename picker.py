@@ -24,6 +24,7 @@ class file_downloader:
                         open(self.file_source+"/"+dest_filename, 'wb').write(response.content)
                     else:
                         print("An error occurred while reading from source --> ",response.status_code)            
+	    f.close()
         except Exception as e:
             print( e)
 
